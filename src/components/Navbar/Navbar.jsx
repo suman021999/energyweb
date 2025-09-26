@@ -121,11 +121,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" relative   ">
+    <div className=" relative bg-white z-999 ">
       {/* Navigation */}
-      <nav className="relative z-40">
+      <nav className="fixed top-0 left-0 right-0 mx-72 z-50 bg-white pb-4">
         <div className="max-w-6xl mx-auto px-6 ">
-          <div className="flex items-center justify-between">
+          <div className="flex  items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex items-center justify-center mr-3">
@@ -143,7 +143,7 @@ const Navbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <button
-                    className={`px-6 py-3 rounded-full text-sm font-medium transition-all ${
+                    className={`px-6 py-3 rounded-full text-lg font-medium transition-all ${
                       item.isButton
                         ? "bg-purple-500 text-white shadow-sm ml-2"
                         : activeDropdown === index
@@ -186,7 +186,7 @@ const Navbar = () => {
 
                               {/* Title text */}
                               <div className="relative z-10 flex items-center h-full px-4">
-                                <h4 className="font-medium text-white text-base">
+                                <h4 className="font-medium text-black text-2xl">
                                   {dropdownItem.title}
                                 </h4>
                               </div>
