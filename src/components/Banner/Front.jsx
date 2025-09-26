@@ -9,7 +9,7 @@ import banner3 from "../../../public/banner/banner3.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Banner = () => {
+const Front = () => {
   const containerRef = useRef();
 
   useGSAP(() => {
@@ -36,7 +36,9 @@ const Banner = () => {
 
   return (
   
-    <section ref={containerRef} className="w-full flex flex-col justify-center space-y-4 py-24">
+    <>
+
+    <section ref={containerRef} className="w-full   flex flex-col justify-center space-y-4 py-24">
       {/* Build */}
       <div className="relative flex items-center justify-start w-full px-10 overflow-hidden">
         <h1 className="absolute left-10 text-[8rem] font-[font1] z-0">
@@ -79,7 +81,8 @@ const Banner = () => {
         />
       </div>
     </section>
+    </>
   );
 };
 
-export default Banner;
+export default Front;

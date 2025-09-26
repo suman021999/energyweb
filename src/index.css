@@ -6,3 +6,23 @@
     font-family: font1;
     src: url(../public/fonts/Amulya-Medium.ttf);
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 15s linear infinite;
+  width: max-content;
+}
+
+/* optional: hide scrollbar on mobile carousel */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

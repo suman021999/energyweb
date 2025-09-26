@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Banner from "../components/Banner/Banner";
+import Front from "../components/Banner/Front";
+import LowCards from "../components/Lowcards/LowCards";
+import EnergyWeb from "../components/EnergyWeb/EnergyWeb";
 
 const MainPage = () => {
   return (
     <>
-      <div className="relative   mx-[295px] mt-6 mb-20">
+      <div className="relative mx-4 sm:mx-10 md:mx-20 lg:mx-[295px] mt-6 mb-20">
         <Navbar />
-        <Banner/>
+        <Front/>
+        <LowCards/>
+        <EnergyWeb/>
       </div>
     </>
   );
