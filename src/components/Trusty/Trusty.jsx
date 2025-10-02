@@ -14,27 +14,27 @@ const Trusty = () => {
 
   // Mapping of company names to image paths (replace with your actual images)
   const companyImages = {
-    'Deloitte': '../../../public/Meetenergy/Deloitte.png',
-    'STEDIN': '/images/companies/stedin.png',
-    'CarbonEnfo': '/images/companies/carbonenfo.png',
-    'eDF': '/images/companies/edf.png',
-    'falecira': '/images/companies/falecira.png',
-    'Aventus': '/images/companies/aventus.png',
-    'ella group': '/images/companies/ella-group.png',
-    'ENGIGE': '/images/companies/engige.png',
-    'Deutsche ERDWÄRME': '/images/companies/deutsche-erdwarme.png',
-    'FOTON': '/images/companies/foton.png',
-    'MERELECI': '/images/companies/megeleci.png',
-    'AUSTIN': '/images/companies/austin.png',
-    'GODSCHAFT': '/images/companies/godschaft.png',
-    'acciona': '/images/companies/acciona.png',
-    'inavitas': '/images/companies/inavitas.png',
-    'equinor': '/images/companies/equinor.png',
-    'OSQ': '/images/companies/osq.png',
-    'verv': '/images/companies/verv.png',
-    'Brookfield': '/images/companies/brookfield.png',
-    'Renewable Partner': '/images/companies/renewable-partner.png',
-    'SCYTALE': '/images/companies/scytale.png',
+    'Shell':'../../../public/energyWeb/Shell.png',
+    'Deloitte': '../../../public/energyWeb/Deloitte.png',
+    'STEDIN': '../../../public/energyWeb/Stedin.png',
+    'CarbonEnfo': '../../../public/energyWeb/carbonenf.png',
+    'eDF': '../../../public/energyWeb/edf.png',
+    'electra': '../../../public/energyWeb/electra.png',
+    'Aventus': '../../../public/energyWeb/AVENTUS.png',
+    'ella group': '../../../public/energyWeb/Elia_group.png',
+    'ENGIGE': '../../../public/energyWeb/engic.png',
+    'Deutsche ERDWÄRME': '../../../public/energyWeb/dutsche.png',
+    'FOTON': '../../../public/energyWeb/Foton.png',
+    'MERELECI': '../../../public/energyWeb/merelec.png',
+    'AUSTIN': '../../../public/energyWeb/austin.png',
+    'STW': '../../../public/energyWeb/stw.png',
+    'acciona': '../../../public/energyWeb/acciona.png',
+    'inavitas': '../../../public/energyWeb/inavitas.png',
+    'equinor': '../../../public/energyWeb/eqinor.png',
+    'OSQ': '../../../public/energyWeb/qsq.png',
+    'verv': '../../../public/energyWeb/verv.png',
+    'Brookfield': '../../../public/energyWeb/brookfield.png',
+    'SCYTALE': '../../../public/energyWeb/scytale.png',
   };
 
   const companies = Object.keys(companyImages);
@@ -203,7 +203,7 @@ const Trusty = () => {
           {companies.map((company, index) => (
             <div
               key={index}
-              className="company-item flex items-center justify-center h-24 md:h-28 p-4 bg-white rounded-xl shadow-sm border border-gray-100 cursor-pointer"
+              className="company-item flex items-center justify-center h-24 md:h-28 p-4  rounded-xl shadow-sm border border-gray-100 cursor-pointer"
             >
               <div className="relative w-full h-full flex items-center justify-center">
                 <img 
