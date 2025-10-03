@@ -1,6 +1,6 @@
 import React from "react";
 
-import aviation from "/aviation.svg";
+import aviation from "/lowcards/aviation.svg";
 import electricity from "/lowcards/electricity.svg";
 import frame from "/lowcards/Frame.svg";
 import maritime from "/lowcards/maritime.svg";
