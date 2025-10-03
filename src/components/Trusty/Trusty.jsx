@@ -236,7 +236,7 @@ const Trusty = () => {
     {/* Arrow Circle */}
     <div className="h-14 w-14 flex items-center justify-center bg-black rounded-full transition-all duration-300 group-hover:bg-white">
       <img
-        src="/Line_arrow.svg"  //dfdgfhhfghfghfghgfhhfghfghfg   
+        src="/Line_arrow.svg"  
         alt="arrow"
         className="w-6 h-6 transition-all duration-300 group-hover:brightness-0 group-hover:invert-0"
       />
