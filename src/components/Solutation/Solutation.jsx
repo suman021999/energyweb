@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import solution1 from "../../../public/solution/solution1.png";
-import solution2 from "../../../public/solution/solution2.png";
+import solution1 from "/solution/solution1.png";
+import solution2 from "/solution/solution2.png";
 import { RiPlayLargeFill } from "@remixicon/react";
 
 const Solutation = () => {
@@ -8,7 +8,7 @@ const Solutation = () => {
 
   const tabs = [
     {
-      icons:"../../../public/solution/chakra.svg",
+      icons:"/solution/chakra.svg",
       name: "Digital Spine",
       title: "Digital Spine Explained",
       desc: "Secure, open-source data and asset management for efficient, reliable electricity markets. Trusted by regulators and grid operators.",
@@ -16,7 +16,7 @@ const Solutation = () => {
       stroy:"Learn more about Digital Spine Solution"
     },
     {
-      icons:"../../../public/solution/thunder.svg",
+      icons:"/solution/thunder.svg",
       name: "Green Proofs",
       title: "Green Proofs Explained",
       desc: "A flexible solution for tracking low-carbon products and attributes across supply chains.",

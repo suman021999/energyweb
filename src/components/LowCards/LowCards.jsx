@@ -1,9 +1,9 @@
 import React from "react";
 
-import aviation from "../../../public/lowcards/aviation.svg";
-import electricity from "../../../public/lowcards/electricity.svg";
-import frame from "../../../public/lowcards/Frame.svg";
-import maritime from "../../../public/lowcards/maritime.svg";
+import aviation from "/aviation.svg";
+import electricity from "/lowcards/electricity.svg";
+import frame from "/lowcards/Frame.svg";
+import maritime from "/lowcards/maritime.svg";
 
 const LowCards = () => {
   const items = [

@@ -11,15 +11,15 @@ const Webx = () => {
   const cards = [
     {
       title: "Support with decentralised compute",
-      img: "../../../public/webx/webx1.png",
+      img: "/webx/webx1.png",
     },
     {
       title: "Stake $EWT and securitize",
-      img: "../../../public/webx/webx2.png",
+      img: "/webx/webx2.png",
     },
     {
       title: "Earn $EWT",
-      img: "../../../public/webx/webx3.png",
+      img: "/webx/webx3.png",
     },
   ];
 
@@ -177,7 +177,7 @@ const Webx = () => {
 
         <div className="flex-1 flex">
           <img
-            src="../../../public/webx/tv.png"
+            src="/webx/tv.png"
             alt="App store laptop"
             className="rounded-xl  shadow-lg"
           />

@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiLinkedinBoxLine, RiTwitterXLine, RiDiscordLine, RiTelegramLine, RiYoutubeLine, RiMediumLine, RiGithubLine } from '@remixicon/react';
-import logo from "../../../public/logo.svg"
+import logo from "/logo.svg"
 const Contact = () => {
   return (
     <footer className="bg-white  shadow-blur rounded-3xl p-8 md:p-12 lg:p-16 max-w-7xl mx-auto">

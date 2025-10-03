@@ -1,7 +1,7 @@
 
 import { RiGlobalLine, RiTwitterXLine } from '@remixicon/react'
 import React, { useEffect, useRef, useState } from 'react'
-import logo from "../../../public/logo.svg"
+import logo from "/Logo.svg"
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -265,7 +265,7 @@ const Latest_news = () => {
           {/* Arrow Circle */}
           <div className="h-14 w-14 flex items-center justify-center bg-black rounded-full transition-all duration-300 group-hover:bg-white">
             <img
-              src="../../../public/Line_arrow.svg"
+              src="/Line_arrow.svg"
               alt="arrow"
               className="w-6 h-6 transition-all duration-300 group-hover:brightness-0 group-hover:invert-0"
             />

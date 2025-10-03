@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import connector from "../../../public/connector.png";
-import logo from "../../../public/logo.svg";
-import dropdownItem from "../../../public/dropdown.svg";
+import connector from "/connector.png";
+import logo from "/Logo.svg";
+import dropdownItem from "/dropdown.svg";
 const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [selectedTab, setSelectedTab] = useState("Business Inquiry");
@@ -108,7 +108,7 @@ const Navbar = () => {
     <div className="relative bg-white z-999">
       {/* Desktop Navigation */}
       <nav className="fixed top-0 left-0 right-0  z-50 bg-white pb-4 hidden md:block">
-        <div className="max-w-6xl mx-auto px-6 ">
+        <div className="max-w-4xl mx-auto px-6 ">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">

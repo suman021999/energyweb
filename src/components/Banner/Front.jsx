@@ -3,9 +3,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
-import banner1 from "../../../public/banner/banner1.png";
-import banner2 from "../../../public/banner/banner2.png";
-import banner3 from "../../../public/banner/banner3.png";
+import banner1 from "/banner/banner1.png";
+import banner2 from "/banner/banner2.png";
+import banner3 from "/banner/banner3.png";
 
 gsap.registerPlugin(ScrollTrigger);
 

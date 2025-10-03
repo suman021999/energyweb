@@ -1,13 +1,13 @@
 import React from 'react'
-import AVENTUS from '../../../public/Meetenergy/AVENTUS.png'
-import Deloitte from '../../../public/Meetenergy/Deloitte.png'
-import Edf from '../../../public/Meetenergy/Edf.png'
-import Elia_group from '../../../public/Meetenergy/Elia_group.png'
-import engic from '../../../public/Meetenergy/engic.png'
-import Shell from '../../../public/Meetenergy/Shell.png'
-import CUBE from '../../../public/Meetenergy/cube.svg'
-import halfCircel from '../../../public/Meetenergy/half_circel.svg'
-import ELECITY from '../../../public/Meetenergy/elecity.svg'
+import AVENTUS from '/Meetenergy/AVENTUS.png'
+import Deloitte from '/Meetenergy/Deloitte.png'
+import Edf from '/Meetenergy/Edf.png'
+import Elia_group from '/Meetenergy/Elia_group.png'
+import engic from '/Meetenergy/engic.png'
+import Shell from '/Meetenergy/Shell.png'
+import CUBE from '/Meetenergy/cube.svg'
+import halfCircel from '/Meetenergy/half_circel.svg'
+import ELECITY from '/Meetenergy/elecity.svg'
 
 const EnergyWeb = () => {
   const logos = [Deloitte, Shell, AVENTUS, Elia_group, Edf, engic]
