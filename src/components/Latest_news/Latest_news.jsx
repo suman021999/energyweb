@@ -1,6 +1,7 @@
 
 import { RiGlobalLine, RiTwitterXLine } from '@remixicon/react'
 import React, { useEffect, useRef, useState } from 'react'
+import logo from "../../../public/logo.svg"
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -166,10 +167,8 @@ const Latest_news = () => {
             <div>
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center">
-                    <RiGlobalLine size={20} className="text-white" />
-                  </div>
-                  <span className="text-sm font-medium">{newsData[1].source}</span>
+                  
+                  <img src={logo} alt="" />
                 </div>
                 <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
                   <RiTwitterXLine size={20} className="text-white" />

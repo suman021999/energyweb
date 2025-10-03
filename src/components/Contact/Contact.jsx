@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiLinkedinBoxLine, RiTwitterXLine, RiDiscordLine, RiTelegramLine, RiYoutubeLine, RiMediumLine, RiGithubLine } from '@remixicon/react';
-
+import logo from "../../../public/logo.svg"
 const Contact = () => {
   return (
     <footer className="bg-white  shadow-blur rounded-3xl p-8 md:p-12 lg:p-16 max-w-7xl mx-auto">
@@ -93,10 +93,7 @@ const Contact = () => {
         <div className="flex items-center justify-between">
           <p className="text-black">Copyright Energy Web 2025</p>
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center">
-              <span className="text-white font-bold text-xl">ω</span>
-            </div>
-            <span className="font-medium text-black">energy web</span>
+            <img src={logo}/>
           </div>
           <div className="flex gap-8">
             <a href="#" className="text-black hover:text-purple-600">Privacy Policy</a>
@@ -189,7 +186,7 @@ const Contact = () => {
             <RiGithubLine size={22} className="text-gray-800" />
           </a>
         </div>
-<div className="mb-8">
+        <div className="mb-8">
           <h1 className="text-7xl lg:text-8xl font-[font1] text-black">energyweb</h1>
         </div>
       </div>
