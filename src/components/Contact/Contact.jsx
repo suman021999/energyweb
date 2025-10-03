@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiLinkedinBoxLine, RiTwitterXLine, RiDiscordLine, RiTelegramLine, RiYoutubeLine, RiMediumLine, RiGithubLine } from '@remixicon/react';
-import logo from "../../../public/logo.svg"
+import logom from "../../../public/logo.svg"
 const Contact = () => {
   return (
     <footer className="bg-white  shadow-blur rounded-3xl p-8 md:p-12 lg:p-16 max-w-7xl mx-auto">
@@ -93,7 +93,7 @@ const Contact = () => {
         <div className="flex items-center justify-between">
           <p className="text-black">Copyright Energy Web 2025</p>
           <div className="flex items-center gap-3">
-            <img src={logo}/>
+            <img src="/logo.svg"/>
           </div>
           <div className="flex gap-8">
             <a href="#" className="text-black hover:text-purple-600">Privacy Policy</a>
