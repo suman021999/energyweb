@@ -1,7 +1,6 @@
-
 import React, { useState } from "react";
 import connector from "../../../public/connector.png";
-// import logo from "../../../public/logo.svg";
+import logo from "../../../public/logo.svg";
 import dropdownItem from "../../../public/dropdown.svg";
 const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -114,7 +113,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex items-center justify-center mr-3">
-                <img src='/logo.svg' alt="" />
+                <img src={logo} alt="" />
               </div>
             </div>
 
@@ -257,7 +256,7 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white p-4 md:hidden">
         <div className="flex items-center justify-between">
-          <img src="/logo.svg" alt="logo" className="h-8" />
+          <img src={logo} alt="logo" className="h-8" />
           <button
             className="px-4 py-2 rounded-full"
             onClick={() =>
@@ -380,3 +379,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
