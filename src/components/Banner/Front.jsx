@@ -56,7 +56,7 @@ const Front = () => {
           <img
             src={banner1}
             alt="Build"
-            data-initwidth="500px"
+            data-initwidth="450px"
             data-finalwidth="100%"
             className="anim-img relative z-10 w-[65%] sm:w-[70%] lg:w-auto 
       h-[120px] sm:h-[140px] md:h-[160px] object-cover rounded-2xl ml-auto"
@@ -75,7 +75,7 @@ const Front = () => {
           <img
             src={banner2}
             alt="Connect"
-            data-initwidth="300px"
+            data-initwidth="250px"
             data-finalwidth="100%"
             className="anim-img relative z-10 w-[65%] sm:w-[70%] lg:w-auto 
       h-[140px] sm:h-[160px] md:h-[180px] object-cover rounded-2xl ml-auto"
@@ -94,7 +94,7 @@ const Front = () => {
           <img
             src={banner3}
             alt="Transform"
-            data-initwidth="200px"
+            data-initwidth="180px"
             data-finalwidth="100%"
             className="anim-img relative z-10 w-[65%] sm:w-[70%] lg:w-auto 
       h-[100px] sm:h-[110px] md:h-[120px] object-cover rounded-2xl ml-auto"

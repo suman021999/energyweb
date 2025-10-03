@@ -12,19 +12,19 @@ const Navbar = () => {
       dropdown: [
         {
           title: "Electricity",
-          img: "../../../public/navso/navso1.png",
+          img: "/navso/navso1.png",
         },
         {
           title: "Aviation",
-          img: "../../../public/navso/navso2.png",
+          img: "/navso/navso2.png",
         },
         {
           title: "Maritime",
-          img: "../../../public/navso/navso3.png",
+          img: "/navso/navso3.png",
         },
         {
           title: "Clean Mining",
-          img: "../../../public/navso/navso4.png",
+          img: "/navso/navso4.png",
         },
       ],
     },
@@ -33,27 +33,27 @@ const Navbar = () => {
       dropdown: [
         {
           title: "Ecosystem",
-          img: "../../../public/naveco/naveco1.png",
+          img: "/naveco/naveco1.png",
         },
         {
           title: "Events",
-          img: "../../../public/naveco/naveco2.png",
+          img: "/naveco/naveco2.png",
         },
         {
           title: "EW Dive 2025",
-          img: "../../../public/naveco/naveco3.png",
+          img: "/naveco/naveco3.png",
         },
         {
           title: "Europe Projects",
-          img: "../../../public/naveco/naveco4.png",
+          img: "/naveco/naveco4.png",
         },
         {
           title: "Academy",
-          img: "../../../public/naveco/naveco5.png",
+          img: "/naveco/naveco5.png",
         },
         {
           title: "Worker Node",
-          img: "../../../public/naveco/naveco6.png",
+          img: "/naveco/naveco6.png",
         },
       ],
     },
@@ -62,31 +62,31 @@ const Navbar = () => {
       dropdown: [
         {
           title: "Documentation",
-          img: "../../../public/navco/navco1.png",
+          img: "/navco/navco1.png",
         },
         {
           title: "Media Kit",
-          img: "../../../public/navco/navco2.png",
+          img: "/navco/navco2.png",
         },
         {
           title: "Roadmap 2025",
-          img: "../../../public/navco/navco3.png",
+          img: "/navco/navco3.png",
         },
         {
           title: "EW Circles",
-          img: "../../../public/navco/navco4.png",
+          img: "/navco/navco4.png",
         },
         {
           title: "Company Brochure",
-          img: "../../../public/navco/navco5.png",
+          img: "/navco/navco5.png",
         },
         {
           title: "Our Team",
-          img: "../../../public/navco/navco6.png",
+          img: "/navco/navco6.png",
         },
         {
           title: "Energy Web Audit",
-          img: "../../../public/navco/navco7.png",
+          img: "/navco/navco7.png",
         },
       ],
     },
